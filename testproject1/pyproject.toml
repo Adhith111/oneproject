@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "testone"
+version = "0.1.0"
+description = ""
+authors = ["nirmal"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.114.1"}
+poetry = "^1.8.3"
+shell = "^1.0.1"
+sqlmodel = "^0.0.22"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
